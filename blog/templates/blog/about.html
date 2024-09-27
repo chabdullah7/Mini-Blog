@@ -1,0 +1,25 @@
+{% extends 'blog/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<style>
+    .header-h1 {
+        font-size: 2em; 
+        font-weight: bold;
+        margin: 0;
+    }
+    .header-h3 {
+        font-size: 1.5em; 
+        font-weight: normal;
+        margin: 0;
+        display: inline; 
+    }
+</style>
+<div class="col-sm-10">
+    <h3 class="text-white my-5">About</h3>
+    <span class="header-h1">Embracing Humanity</span>:<span class="header-h3"> Forging Unity Through Compassion and Connection</span>
+    <p style="text-align: justify;">Reflects our dedication to recognizing and valuing every individuals inherent worth. We are committed to fostering a culture of empathy and inclusivity, bridging divides to drive meaningful progress. Through our focus on understanding and connection, we strive to build a more equitable and harmonious world for all.</p>
+</div>
+
+{% endblock content %} 
